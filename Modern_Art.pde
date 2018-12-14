@@ -29,6 +29,8 @@ strokeWeight(4);
 line(0,415,500,415);
 strokeWeight(3);
 line(0,425,500,425);
+strokeWeight(9);
+line(0,150,500,150);
 
 fill(0,0,255);
 rect(445,485,500,500);
@@ -50,11 +52,31 @@ rect(449,297,38,50);
 fill(255,20,147);
 ellipse(390,130,135,135);
 
-strokeWeight(10);
-noFill();
-stroke(192,192,192);
-ellipse(120,245,90,90);
+//strokeWeight(10);
+//noFill();
+//stroke(192,192,192);
+//ellipse(120,245,90,90);
 
 strokeWeight(7);
 stroke(0,0,0);
 line(130,210,400,210);
+
+strokeWeight(5);
+line(270,0,270,500);
+strokeWeight(7);
+line(290,0,290,500);
+strokeWeight(9);
+line(310,0,310,500);
+strokeWeight(2);
+line(320,0,320,500);
+strokeWeight(7);
+line(70,0,70,500);
+
+noStroke();
+fill(160);
+ellipse(141,301,117,117);
+fill(190,100,20);
+ellipse(360,320,75,75);
+fill(0,200,100);
+rect(0,420,50,80);
+
